@@ -1,0 +1,24 @@
+class ArmStrong2
+{
+	public static void main(String[] args)
+	
+	{
+		
+	int a = 8208;
+	int b = a;
+	
+	int c = a%10;
+	int d = a/10;
+	int e = d%10;
+	int f = d/10;
+	int g = f%10;
+	int h = f/10;
+	int i = (c*c*c*c)+(e*e*e*e)+(g*g*g*g)+(h*h*h*h);
+	
+	boolean Arm = (a==i);
+	
+	System.out.println("ArmStrong Number is - "+Arm);
+	
+	
+	}
+}
